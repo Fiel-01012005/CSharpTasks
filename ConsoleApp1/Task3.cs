@@ -18,7 +18,7 @@ public class Task3
             // Breaking the loop if the entered number is found
             if (numbers[i] == key)
             {
-                Console.WriteLine($"Element found at position {i + 1}.");
+                Console.WriteLine($"Number found at position {i + 1}.");
                 found = true;
                 break;
             }
@@ -26,7 +26,7 @@ public class Task3
 
         if (!found)
         {
-            Console.WriteLine("Element not found.");
+            Console.WriteLine("Number not found in the list.");
         }
     }
 }
