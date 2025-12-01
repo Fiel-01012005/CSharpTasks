@@ -7,7 +7,7 @@ public class Task3
 
         // Asking the User to enter a number to search
         Console.Write("Enter a number to search for: ");
-        int n = int.Parse(Console.ReadLine());
+        int user_input = int.Parse(Console.ReadLine());
 
         bool found = false;
 
@@ -16,7 +16,7 @@ public class Task3
         {
 
             // Breaking the loop if the entered number is found
-            if (numbers[i] == n)
+            if (numbers[i] == user_input)
             {
                 Console.WriteLine($"Number found at position {i + 1}.");
                 found = true;
